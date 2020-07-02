@@ -1,0 +1,305 @@
+order-box;padding-right:10px;background:lightcyan;}
+
+
+.breadcrumb1  li a{
+       
+         color:#00f;
+         
+}
+
+@media screen and (max-width: 600px) {
+  body{
+
+     padding-right:0px;
+}
+
+
+.breadcrumb1 ol li a{
+       
+         margin-right:-15px;
+}
+
+
+
+}
+
+
+.first-nav{
+
+     height:100px;
+    
+     background:#00f;  
+     margin-left:-15px;
+      margin-right:-15px;
+}
+
+.div-btn{
+
+  background:darkcyan; height:auto;padding-left:1%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .div-btn{
+
+  background:darkcyan; height:auto;padding-left:2%;
+}
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .div-btn{
+
+  background:darkcyan; height:auto;padding-left:0;
+}
+
+
+}
+
+
+@media screen and (max-width: 240px) {
+  .carousel {
+
+    margin-right:15%;
+
+    margin-left:0px;
+      width:200px
+  }
+
+
+  .father-carousel1{
+      margin:0px ; 
+    padding-left:0
+
+
+}
+
+}
+
+/****************************breadcrumb1****************************************/
+
+
+.father-breadcrumb1{
+     background:#888;
+     height:20%;
+     margin-left:-15px;
+     margin-right:-15px;
+}
+
+
+.breadcrumb1 {
+        margin:0;
+        padding-top:0;
+        padding-right:0;
+        font-size:20px;
+       background:#000;
+        width:60%;
+       display:flex;
+       flex-direction:row;
+
+
+}
+
+.breadcrumb1  li  {
+        margin:0;
+        padding-top:0;
+        padding-right:0;
+        width:33%;
+        align-items:flex-start;
+         
+      
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 540px) {
+ 
+
+     .father-breadcrumb1{
+     background:#888;
+     height:60%;
+     margin-left:-15px;
+     margin-right:-15px;
+     flex-direction:column;
+      }
+
+  
+.breadcrumb1 {
+        margin:0;
+        padding-top:0;
+        padding-right:0;
+        font-size:20px;
+       background:#000;
+        width:60%;
+       display:flex;
+       flex-direction:column;
+        }
+
+}
+
+/*****************************carousel1**********************************/
+
+.father-carousel1{
+      margin:10px ; 
+    padding-left:15%;
+    margin-bottom:10%;
+    
+
+
+}
+
+
+h1{
+
+  padding:5%;
+}
+
+.carousel{width:400px;margin-left:15%;}
+
+.carousel-control-prev{color:red;}
+
+
+
+
+
+
+/*****************************************/
+
+
+@media screen and (max-width: 586px) {
+  .carousel {
+
+    margin-right:0;
+
+    margin-left:30%;
+      width:300px
+  }
+
+
+  .father-carousel1{
+      margin:0px ; 
+    padding-left:0
+
+
+}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+  .carousel {
+
+    margin-right:0;
+
+    margin-left:0px;
+      width:300px
+  }
+
+
+  .father-carousel1{
+      margin:0px ; 
+    padding-left:0
+
+
+}
+
+
+}
+
+}
+
+@media screen and (max-width: 306px) {
+  .carousel {
+
+    margin-right:0;
+
+    margin-left:0px;
+          width:100px;
+
+         }
+
+
+  .father-carousel1{
+      margin:0px ; 
+    padding-left:0
+   }
+
+
+}
+
+@media screen and (max-width: 303px) {
+  .carousel {
+
+    margin-right:0;
+
+    margin-left:0px;
+          width:150px;
+
+         }
+
+
+  .father-carousel1{
+      margin:0px ; 
+    padding-left:0
+   }
+
+
+}
+
+/******************************footer***********************************/ 
+
+
+
+.footer2{margin-top:10%;width:93%;background:darkcyan;margin-left:4%;
+ margin-right:1%; overflow:auto;padding-top:2%; padding:10px;} 
+
+         
+ 
+a{display:block;color:#fff;margin-bottom:10%;}
+.foot{display:flex;flex-direction:column;background:darkcyan;padding-left:30px;}
+
+/****************start social**********************************************/
+
+.clear{clear:both;}
+
+.s {display:flex ;
+   background:#333;flex-direction:row; margin-left:0px;
+   ;margin-right:-15px;}
+
+
+.s .f{background:#3b5998;height:50px;flex:1;display:inline-flex;
+          justify-content:center; font-size:35px;color:#fff;  } 
+
+.s .t{background:#62c8f8;height:50px;flex:1;display:inline-flex;
+        justify-content:center; font-size:35px;color:#fff;      } 
+
+.s .y{background:#c8302a;height:50px;flex:1;display:inline-flex;
+          justify-content:center; font-size:35px;color:#fff;} 
+                                          
+
+
+
+
+@media screen and (max-width: 543px) {
+    .s {
+        
+      flex-direction:column;
+      left:0px;
+        }
+
+        
+}
+
